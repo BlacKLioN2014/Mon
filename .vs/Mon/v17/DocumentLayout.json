@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ismael\\Desktop\\Mon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\views\\login\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:views\\login\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\wwwroot\\js\\registro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:wwwroot\\js\\registro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Login\\Registro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Login\\Registro.cshtml",
+              "RelativeToolTip": "Views\\Login\\Registro.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T23:24:45.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registro.js",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Registro.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Registro.js",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Registro.js",
+              "RelativeToolTip": "wwwroot\\js\\Registro.js",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-13T23:02:39.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Login.js",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "wwwroot\\js\\Login.js",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAACQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-13T23:02:37.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:07:09.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

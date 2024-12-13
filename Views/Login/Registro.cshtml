@@ -1,0 +1,143 @@
+﻿@{
+    Layout = null;
+}
+
+@model Mon.Models.Dtos.UserRegistroDto
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registro</title>
+
+    <!-- Meta -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta property="" content="">
+
+
+    <!-- *************
+            ************ CSS Files *************
+        ************* -->
+    <link href="~/assets/fonts/bootstrap/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/css/main.min.css" rel="stylesheet" />
+
+    <!-- *************
+            ************ JS Files *************
+        ************* -->
+@*     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script> *@
+    <script src="~/js/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.11/dist/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Container start -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-5 col-sm-6 col-12">
+                
+                @* action="index.html" *@
+                <form id="Registerform" class="my-5" method="POST"> @* action="/Login/Registrar_Usuario" *@
+                    <div class="border border-dark rounded-2 p-4 mt-5">
+                        
+                        <div class="login-form">
+
+                            @* <a href="index.html" class="mb-4 d-flex">
+                                <img src="assets/images/logo-dark.svg" class="img-fluid login-logo" alt="Nyke Admin" />
+                            </a> *@
+
+                            <h3 class="fw-light mb-5">Crea tu cuenta</h3>
+
+                            @* <div asp-validation-summary="All" class="text-danger"></div> *@
+
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Usuario</label>
+                                <input class="form-control" type="text" placeholder="Ingresa tu usuario" asp-for="NombreUsuario" />
+                                <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input class="form-control" type="text" placeholder="Ingresa tu nombre" asp-for="Nombre" />
+                                <span asp-validation-for="Nombre" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Contraseña</label>
+                                <input class="form-control" type="password" placeholder="Ingresa tu contraseña" asp-for="Passsword" />
+                                <span asp-validation-for="Passsword" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Confirmar contraseña</label>
+                                <input class="form-control" type="password" placeholder="Ingresa tu contraseña" asp-for="ConfirmarPasssword" />
+                                <span asp-validation-for="ConfirmarPasssword" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Correo electronico</label>
+                                <input class="form-control" type="email" placeholder="Ingresa tu correo" asp-for="Correo" />
+                                <span asp-validation-for="Correo" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="roleSelect" class="form-label">Rol</label>
+                                <select id="roleSelect" class="form-control" asp-for="Role">
+                                    <option value="" disabled selected>Selecciona tu rol</option>
+                                    <option value="admin">Administrador</option>
+                                    <option value="user">Usuario</option>
+                                </select>
+                                <span asp-validation-for="Role" class="text-danger"></span>
+                            </div>
+
+                              @*<div class="d-flex align-items-center justify-content-between">
+                                <div class="form-check m-0">
+                                    <input class="form-check-input" type="checkbox" value="" id="termsConditions" />
+                                    <label class="form-check-label" for="termsConditions" id="Label_Terminos">Acepto terminos y condiciones</label>
+                                </div>
+                            </div> *@
+
+                            <div class="d-grid py-3 mt-4">
+                                <button type="submit" id="Registrarme" class="btn btn-lg btn-primary">
+                                    Registrarme
+                                </button>
+                            </div>
+
+                            @* <div class="text-center py-3">or Signup with</div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <button type="submit" class="btn btn-outline-danger">
+                                    <i class="bi bi-google"></i>
+                                </button>
+                                <button type="submit" class="btn btn-outline-info">
+                                    <i class="bi bi-facebook"></i>
+                                </button>
+                            </div> *@
+
+                            <div class="text-center pt-4">
+                                <span id="span_Tengo_Cuenta">Ya tengo una cuenta?</span>
+                                <a href="/Login/Index" class="text-blue text-decoration-underline ms-2" id="Link_Login">
+                                    Iniciar sesión
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Container end -->
+</body>
+
+</html>
