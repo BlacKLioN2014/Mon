@@ -73,27 +73,34 @@ namespace Mon.Repository
             //Aqui existe usuario
             var roles = await _UserManager.GetRolesAsync(usuario);
 
-            var manejadorToken = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(claveSecreta);
+            #region Codigo anterior
 
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.Name, usuario.UserName.ToString()),
-                    new Claim(ClaimTypes.Role, roles.FirstOrDefault())
-                }),
-                Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            };
+            //var manejadorToken = new JwtSecurityTokenHandler();
+            //var key = Encoding.ASCII.GetBytes(claveSecreta);
 
-            var token = manejadorToken.CreateToken(tokenDescriptor);
+            //var tokenDescriptor = new SecurityTokenDescriptor
+            //{
+            //    Subject = new ClaimsIdentity(new Claim[]
+            //    {
+            //        new Claim(ClaimTypes.Name, usuario.UserName.ToString()),
+            //        new Claim(ClaimTypes.Role, roles.FirstOrDefault())
+            //    }),
+            //    Expires = DateTime.UtcNow.AddMinutes(30),
+            //    SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            //};
+
+            //var token = manejadorToken.CreateToken(tokenDescriptor);
+
+            #endregion
+
+            var token = Logic.generarToKen(usuario.UserName.ToString(), roles.FirstOrDefault(),claveSecreta); 
 
             UserLoginRespuestaDto usuarioLoginRespuesta = new UserLoginRespuestaDto()
             {
-                Token = manejadorToken.WriteToken(token),
+                Token = token,
                 Usuario = usuario,
                 Role = roles.FirstOrDefault()
+
             };
 
             return usuarioLoginRespuesta;
@@ -141,6 +148,7 @@ namespace Mon.Repository
 
             return new UserDatosDto();
         }
+
 
     }
 }

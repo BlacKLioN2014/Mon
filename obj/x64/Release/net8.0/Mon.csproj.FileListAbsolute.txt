@@ -132,6 +132,7 @@ C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\Mon.csproj.CoreCompileInputs.
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\Mon.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\Mon.RazorAssemblyInfo.cache
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\Mon.RazorAssemblyInfo.cs
+C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\Mon.sourcelink.json
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\staticwebassets.build.json
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\staticwebassets.development.json
 C:\Users\Ismael\Desktop\Mon\obj\x64\Release\net8.0\staticwebassets\msbuild.Mon.Microsoft.AspNetCore.StaticWebAssets.props

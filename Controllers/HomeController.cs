@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Mon.Models;
 using System.Diagnostics;
+using System.Web;
 
 namespace Mon.Controllers
 {
@@ -15,7 +16,25 @@ namespace Mon.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            try
+            {
+                //AppUsuario User = 
+
+                //if (User != null)
+                //{
+                    //ViewBag.User = User.UserName;
+                    return View();
+                //}
+                //else
+                //{
+                //    return View("~/Views/Home/Index.cshtml");
+                //}
+
+            }
+            catch (Exception x)
+            {
+                return View("~/Views/Home/Index.cshtml");
+            }
         }
 
         public IActionResult Privacy()

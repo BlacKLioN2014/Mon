@@ -79,7 +79,7 @@
                     title: 'Registro correcto',
                     text: data.message
                 })
-                setTimeout(() => window.location.href = '@Url.Action("Login","Validate")', 2000)
+                setTimeout(() => window.location.href = '@Url.Action("Login","Validate")', 1000)
 
                 //alert("Inicio de sesión exitoso");
                 //window.location.href = "/Home"; // Redirige al usuario

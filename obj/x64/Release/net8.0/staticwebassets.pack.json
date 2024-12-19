@@ -9,8 +9,92 @@
       "PackagePath": "staticwebassets\\Image\\arch-linux.jpg"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\brand-behance.svg",
+      "PackagePath": "staticwebassets\\Image\\brand-behance.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\brand-bitcoin.svg",
+      "PackagePath": "staticwebassets\\Image\\brand-bitcoin.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\brand-dribbble.svg",
+      "PackagePath": "staticwebassets\\Image\\brand-dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\brand-gatsby.svg",
+      "PackagePath": "staticwebassets\\Image\\brand-gatsby.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\brand-google.svg",
+      "PackagePath": "staticwebassets\\Image\\brand-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\favicon.svg",
+      "PackagePath": "staticwebassets\\Image\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\Image\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\logo-sm.svg",
+      "PackagePath": "staticwebassets\\Image\\logo-sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\logo.svg",
+      "PackagePath": "staticwebassets\\Image\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\user.png",
+      "PackagePath": "staticwebassets\\Image\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\user1.png",
+      "PackagePath": "staticwebassets\\Image\\user1.png"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\user2.png",
+      "PackagePath": "staticwebassets\\Image\\user2.png"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Images\\curve-line-2.svg",
+      "PackagePath": "staticwebassets\\Images\\curve-line-2.svg"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\assets\\fonts\\bootstrap\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\assets\\fonts\\bootstrap\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\assets\\fonts\\bootstrap\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bootstrap\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\assets\\fonts\\bootstrap\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bootstrap\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\css\\OverlayScrollbars.min.css"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\login.css",
@@ -41,12 +125,96 @@
       "PackagePath": "staticwebassets\\js\\Registro.js"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\channel.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\channel.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\customers.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\customers.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\deals.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\deals.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\demography.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\demography.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\device.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\device.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\sparkline.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\Custum\\weekly-sales.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\Custum\\weekly-sales.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\Apex\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\Apex\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\continents-mill.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\continents-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\custom\\world-map-markers2.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\custom\\world-map-markers2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\gdp-data.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\gdp-data.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\world-mill-en.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\overlay-scroll\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\js\\Vendor\\overlay-scroll\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\overlay-scroll\\custom-scrollbar.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\overlay-scroll\\custom-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\overlay-scroll\\jquery.overlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\js\\Vendor\\overlay-scroll\\jquery.overlayScrollbars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\bootstrap\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\bootstrap\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\bootstrap\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\bootstrap\\bootstrap-icons.woff2"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -79,6 +247,10 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-icons.css"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",

@@ -148,3 +148,4 @@ C:\Users\Ismael\Desktop\Mon\obj\x64\Debug\net8.0\refint\Mon.dll
 C:\Users\Ismael\Desktop\Mon\obj\x64\Debug\net8.0\Mon.pdb
 C:\Users\Ismael\Desktop\Mon\obj\x64\Debug\net8.0\Mon.genruntimeconfig.cache
 C:\Users\Ismael\Desktop\Mon\obj\x64\Debug\net8.0\ref\Mon.dll
+C:\Users\Ismael\Desktop\Mon\obj\x64\Debug\net8.0\Mon.sourcelink.json

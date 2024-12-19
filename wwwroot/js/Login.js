@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         var a = JSON.stringify(data)
-        console.log(a)
+        /*console.log(a)*/
 
         try {
             // Enviar los datos al servidor
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const data = await response.json();
 
-            console.log(data)
+            /*console.log(data)*/
 
             // Manejo de la respuesta
             if (data.role == null) {
@@ -58,6 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             else {
 
+                // Guardar en localStorage
+                localStorage.setItem("userInfo", JSON.stringify(data));
+
                 const Toast = Swal.mixin({
                     toast: true,
                     position: 'top-end',
@@ -73,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     icon: 'success',
                     title: 'Usuario Correcto'
                 })
-                setTimeout(() => window.location.href = '@Url.Action("ValidaRol","Home")', 2000)
+                setTimeout(() => window.location.href = 'Home/Index', 1000)
 
                 //alert("Inicio de sesión exitoso");
                 //window.location.href = "/Home"; // Redirige al usuario
