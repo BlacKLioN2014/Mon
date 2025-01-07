@@ -35,74 +35,23 @@ namespace Mon.Data
 
         }
 
-        public static ClaimsPrincipal? ValidarYDecodificarToken(string token, string claveSecreta)
+        public RoleUser desifrarToken(string token)
         {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(claveSecreta);
-
-            try
-            {
-                var validationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = false, // Configura esto según tu aplicación
-                    ValidateAudience = false, // Configura esto según tu aplicación
-                    ClockSkew = TimeSpan.Zero // Elimina margen de error para la expiración
-                };
-
-                var principal = tokenHandler.ValidateToken(token, validationParameters, out SecurityToken validatedToken);
-
-                // Verifica que el token sea un JWT
-                if (validatedToken is JwtSecurityToken jwtToken &&
-                    jwtToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
-                {
-                    return principal; // Devuelve los claims del token
-                }
-
-                return null;
-            }
-            catch
-            {
-                // Si el token no es válido, devuelve null
-                return null;
-            }
-        }
-
-        public static UserRespuesta extraerToken(string token, string claveSecreta) 
-        {
-            var Respuesta = new UserRespuesta();
-
-            var TimeExp = DateTime.Now;
-
-            var claimsPrincipal = ValidarYDecodificarToken(token, claveSecreta);
-
             var manejadorToken = new JwtSecurityTokenHandler();
-            // Decodifica el token
-            var jwtToken = manejadorToken.ReadJwtToken(token);
-            // Obtén el claim de expiración ("exp")
-            var expClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Exp);
+            var jwtToken = manejadorToken.ReadToken(token) as JwtSecurityToken;
 
-            if (expClaim != null)
+            if (jwtToken == null)
+                return null;
+
+            // Asegúrate de que estos ClaimTypes coincidan con los que usaste al crear el token
+            var usuario = jwtToken?.Claims.FirstOrDefault(c => c.Type == "unique_name")?.Value;
+            var rol = jwtToken?.Claims.FirstOrDefault(c => c.Type == "role")?.Value;
+
+            return new RoleUser
             {
-                // La fecha de expiración está en formato UNIX timestamp
-                var expTimestamp = long.Parse(expClaim.Value);
-                TimeExp = DateTimeOffset.FromUnixTimeSeconds(expTimestamp).UtcDateTime;
-            }
-
-            if (claimsPrincipal != null)
-            {
-                Respuesta = new UserRespuesta()
-                {
-                    Usuario = claimsPrincipal.FindFirst(ClaimTypes.Name)?.Value,
-                    Role = claimsPrincipal.FindFirst(ClaimTypes.Role)?.Value,
-                    Token = token,
-                    time = TimeExp
-                };
-            }
-
-            return Respuesta;
-
+                User = usuario,
+                Role = rol // Usando rol como ejemplo
+            };
         }
 
     }

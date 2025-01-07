@@ -24,5 +24,5 @@ var options = {
 		},
 	},
 };
-var chart = new ApexCharts(document.querySelector("#device"), options);
-chart.render();
+//var chart = new ApexCharts(document.querySelector("#device"), options);
+//chart.render();

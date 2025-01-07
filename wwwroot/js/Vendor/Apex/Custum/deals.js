@@ -75,6 +75,6 @@ var options = {
 	},
 };
 
-var chart = new ApexCharts(document.querySelector("#deals"), options);
+//var chart = new ApexCharts(document.querySelector("#deals"), options);
 
-chart.render();
+//chart.render();

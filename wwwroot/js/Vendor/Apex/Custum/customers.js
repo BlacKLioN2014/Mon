@@ -75,5 +75,5 @@ var options = {
 	},
 };
 
-var chart = new ApexCharts(document.querySelector("#customers"), options);
-chart.render();
+//var chart = new ApexCharts(document.querySelector("#customers"), options);
+//chart.render();

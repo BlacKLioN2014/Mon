@@ -42,8 +42,8 @@ var options1 = {
 		},
 	},
 };
-var chart1 = new ApexCharts(document.querySelector("#sparkline1"), options1);
-chart1.render();
+//var chart1 = new ApexCharts(document.querySelector("#sparkline1"), options1);
+//chart1.render();
 
 // Sparkline 2
 var options2 = {
@@ -89,8 +89,8 @@ var options2 = {
 		},
 	},
 };
-var chart2 = new ApexCharts(document.querySelector("#sparkline2"), options2);
-chart2.render();
+//var chart2 = new ApexCharts(document.querySelector("#sparkline2"), options2);
+//chart2.render();
 
 // Sparkline 3
 var options3 = {
@@ -150,5 +150,5 @@ var options3 = {
 		},
 	},
 };
-var chart3 = new ApexCharts(document.querySelector("#sparkline3"), options3);
-chart3.render();
+//var chart3 = new ApexCharts(document.querySelector("#sparkline3"), options3);
+//chart3.render();

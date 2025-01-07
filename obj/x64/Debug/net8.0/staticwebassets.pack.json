@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Mon.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\Mon.jpg",
+      "PackagePath": "staticwebassets\\Image\\Mon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\Pokéball.png",
+      "PackagePath": "staticwebassets\\Image\\Pokéball.png"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\arch-linux.jpg",
       "PackagePath": "staticwebassets\\Image\\arch-linux.jpg"
     },
@@ -55,6 +63,10 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\flags\\1x1\\us.svg",
       "PackagePath": "staticwebassets\\Image\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\images.jpg",
+      "PackagePath": "staticwebassets\\Image\\images.jpg"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Image\\logo-sm.svg",
@@ -195,6 +207,10 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\initial_Index.js",
+      "PackagePath": "staticwebassets\\js\\initial_Index.js"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\jquery.min.js",

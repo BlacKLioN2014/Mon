@@ -52,6 +52,6 @@ var options = {
 	},
 };
 
-var chart = new ApexCharts(document.querySelector("#channel"), options);
+//var chart = new ApexCharts(document.querySelector("#channel"), options);
 
-chart.render();
+//chart.render();

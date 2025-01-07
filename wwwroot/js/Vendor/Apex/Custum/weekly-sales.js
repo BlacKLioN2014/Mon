@@ -67,6 +67,6 @@ var options = {
 	},
 };
 
-var chart = new ApexCharts(document.querySelector("#weekly-sales"), options);
+//var chart = new ApexCharts(document.querySelector("#weekly-sales"), options);
 
-chart.render();
+//chart.render();

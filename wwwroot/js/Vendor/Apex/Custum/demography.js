@@ -38,5 +38,5 @@ var options = {
 	},
 };
 
-var chart = new ApexCharts(document.querySelector("#demography"), options);
-chart.render();
+//var chart = new ApexCharts(document.querySelector("#demography"), options);
+//chart.render();

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ismael\\Desktop\\Mon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\wwwroot\\js\\initial_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:wwwroot\\js\\initial_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\data\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:data\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|c:\\users\\ismael\\desktop\\mon\\wwwroot\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB0D7E0A-546E-477D-9E52-A5D78B38EB4B}|Mon.csproj|solutionrelative:wwwroot\\css\\main.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,55 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.js",
-              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Login.js",
-              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
-              "RelativeToolTip": "wwwroot\\js\\Login.js",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-18T20:30:20.702Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:17:09.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Logic.cs",
-              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Data\\Logic.cs",
-              "RelativeDocumentMoniker": "Data\\Logic.cs",
-              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Data\\Logic.cs",
-              "RelativeToolTip": "Data\\Logic.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:30:52.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:12:27.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHcBAAAAAAAAAAAAAMkBAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADABAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T15:33:02.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T15:33:02.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "initial_Index.js",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\initial_Index.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\initial_Index.js",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\initial_Index.js",
+              "RelativeToolTip": "wwwroot\\js\\initial_Index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-30T22:27:33.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "Controllers\\PokemonController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T22:29:34.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.min.css",
+              "DocumentMoniker": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\main.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\main.min.css",
+              "ToolTip": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\main.min.css",
+              "RelativeToolTip": "wwwroot\\css\\main.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-30T18:47:48.647Z"
             }
           ]
         }
