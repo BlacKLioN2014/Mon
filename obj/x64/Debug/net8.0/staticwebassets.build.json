@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4qxFMsUU0weds6Ik0ZZZtmh57kcR7MM+9GCMvxpbwsE=",
+  "Hash": "LtLzeYvM2s5ihMieUs6xH8v3/rvGLEbIXgqXp5YA/HY=",
   "Source": "Mon",
   "BasePath": "_content/Mon",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\bootstrap\\bootstrap-icons.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\Home-Index.css",
+      "SourceId": "Mon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
+      "BasePath": "_content/Mon",
+      "RelativePath": "css/Home-Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Home-Index.css"
     },
     {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\login.css",
@@ -682,12 +701,12 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\initial_Index.js",
+      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Home-Index.js",
       "SourceId": "Mon",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
       "BasePath": "_content/Mon",
-      "RelativePath": "js/initial_Index.js",
+      "RelativePath": "js/Home-Index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,7 +717,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\initial_Index.js"
+      "OriginalItemSpec": "wwwroot\\js\\Home-Index.js"
     },
     {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\jquery.min.js",
@@ -984,25 +1003,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Vendor\\jvectormap\\gdp-data.js"
-    },
-    {
-      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js",
-      "SourceId": "Mon",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
-      "BasePath": "_content/Mon",
-      "RelativePath": "js/Vendor/jvectormap/jquery-jvectormap-2.0.5.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js"
     },
     {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\world-mill-en.js",

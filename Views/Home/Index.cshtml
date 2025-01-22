@@ -1,11 +1,22 @@
 ﻿@section Scripts {
 
-    <script src="~/js/initial_index.js"></script>
+    <script src="~/js/Home-Index.js"></script>
+    <link href="~/css/home-index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.0/dist/bootstrap-table-locale-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+    <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.21.2/dist/extensions/export/bootstrap-table-export.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 }
 
 <div class="app-container">
 
-                <!-- App header starts header superior-->
+
                 <div class="app-header d-flex align-items-center">
 
                     <!-- Toggle buttons start -->
@@ -149,308 +160,126 @@
                     <!-- App header actions end -->
 
                 </div>
-                <!-- App header ends -->
 
-
-                <!-- App hero header starts  header superior de contenido-->
                 <div class="app-hero-header">
-                    <h5 class="fw-light">Bienvenido</h5>
-                    @* <h3 class="fw-light mb-5">
-                        <span>Home</span> / <span class="menu-text">Analytics</span>
-                    </h3> *@
-                </div>
-                <!-- App Hero header ends -->
 
-                <!-- App body starts -->
-                <div class="app-body">
+                <div class="row" id="RowPokeCount">
 
-                    <!-- Row start Total pokemon-->
-                    <div class="row" id="PokeCount">
-
-                        <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="col-lg-4 col-sm-6 col-12" id="ColPokeCount">
                             <div class="card shadow mb-4 p-3 rounded-2 justify-content-between flex-row">
-                                <div class="mt-3">
+                                <div class="mt-3" id="MtPokeCount">
                                     <h5 class="text-secondary fw-light">Numero de pokemon</h5>
                                     <h1 class="text-primary">1302</h1>
-                                    @* <span class="badge border border-primary text-primary me-3">Today</span> *@
                                 </div>
-                                @* <div id="sparkline1"></div> *@
-                            </div>
-                        </div>
 
-                        @* <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4 p-3 rounded-2 justify-content-between flex-row">
-                                <div class="mt-3">
-                                    <h5 class="text-secondary fw-light">Expenses</h5>
-                                    <h1 class="text-primary">2500</h1>
-                                    <span class="badge border border-primary text-primary me-3">Last week</span>
-                                </div>
-                                <div id="sparkline2"></div>
                             </div>
-                        </div> *@
-
-                        @* <div class="col-lg-4 col-sm-12 col-12">
-                            <div class="card shadow mb-4 p-3 rounded-2 justify-content-between flex-row">
-                                <div class="mt-3">
-                                    <h5 class="text-secondary fw-light">Income</h5>
-                                    <h1 class="text-primary">250K</h1>
-                                    <span class="badge border border-primary text-primary me-3">Year 2022</span>
-                                </div>
-                                <div id="sparkline3"></div>
-                            </div>
-                        </div> *@
-
                     </div>
-                    <!-- Row end -->
-
-                    <!-- Row starts  tabla pokemons -->
-                    <div class="row">
-
-            <!--
-                        <div class="col-xxl-12">
-
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">Sales by Location</h5>
-                                </div>
-                                <div class="card-body">
-                                     @* Row start *@
-                                    <div class="row align-items-center">
-                                        <div class="col-xxl-2 col-sm-3 col-12">
-                                            <div class="d-grid gap-4">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="icon-box lg border border-primary rounded-4">
-                                                        <img src="~/image/flags/1x1/us.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h6 class="text-muted">USA</h6>
-                                                        <h3 class="m-0">$9500</h3>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="icon-box lg border border-primary rounded-4">
-                                                        <img src="~/image/flags/1x1/in.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h6 class="text-muted">India</h6>
-                                                        <h3 class="m-0">$8700</h3>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="icon-box lg border border-primary rounded-4">
-                                                        <img src="~/image/flags/1x1/br.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <h6 class="text-muted">Brazil</h6>
-                                                        <h3 class="m-0">$7500</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-8 col-sm-6 col-12">
-                                            <div id="world-map-markers3" class="chart-height-xxl position-relative"></div>
-                                        </div>
-                                        <div class="col-xxl-2 col-sm-3 col-12">
-                                            <div class="d-grid gap-4">
-                                                <div class="d-flex align-items-center justify-content-end">
-                                                    <div class="me-3 text-end">
-                                                        <h6 class="text-muted">Turkey</h6>
-                                                        <h3 class="m-0">$6900</h3>
-                                                    </div>
-                                                    <div class="icon-box lg border border-success rounded-4">
-                                                        <img src="~/image/flags/1x1/tr.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-end">
-                                                    <div class="me-3 text-end">
-                                                        <h6 class="text-muted">France</h6>
-                                                        <h3 class="m-0">$6200</h3>
-                                                    </div>
-                                                    <div class="icon-box lg border border-success rounded-4">
-                                                        <img src="~/image/flags/1x1/fr.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-end">
-                                                    <div class="me-3 text-end">
-                                                        <h6 class="text-muted">Germany</h6>
-                                                        <h3 class="m-0">$5800</h3>
-                                                    </div>
-                                                    <div class="icon-box lg border border-success rounded-4">
-                                                        <img src="~/image/flags/1x1/de.svg" class="img-2x rounded-2"
-                                                             alt="Bootstrap Gallery" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-                                    -->
-
-            <div class="class=" table-responsive"">
-                <h1>Datos de Pokémon</h1>
-                <table id="Pokemon-table"
-                       class="table table-dark table-sm"
-                       data-toggle="table"
-                       data-pagination="true"
-                       data-search="true"
-                       data-page-size="50"
-                       data-page-list="[50, 100, 200]">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th data-field="id" data-sortable="true">ID</th>
-                            <th data-field="nombre" data-sortable="true">Nombre</th>
-                            <th data-field="url">Url</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
-                    </div>
-                    <!-- Row ends -->
-
-
-                    <!-- Row starts -->
-                    <div class="row">
-
-            <!--
-                       <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">Weekly Sales</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="weekly-sales"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            6400
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            15% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">Deals</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="deals"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            2500
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            29% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">By Channel</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="channel"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            8950
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            18% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">New Customers</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="customers"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            7560
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            16% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">By Device</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="device"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            3860
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            16% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-sm-6 col-12">
-                            <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    <h5 class="card-title">Demography</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div id="demography" class="d-flex justify-content-center"></div>
-                                    <div class="text-center my-4">
-                                        <h2>
-                                            4250
-                                            <i class="bi bi-arrow-up-right-circle-fill text-primary"></i>
-                                        </h2>
-                                        <p class="text-truncate m-0">
-                                            24% higher than last month
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                    -->
-
-                    </div>
-                    <!-- Row ends -->
-
 
                 </div>
-                <!-- App body ends -->
 
+                </div>
 
-                <!-- App footer start -->
+                <div class="app-body">
+
+                    <div class="row">
+
+                        <div class="container-fluid p-3" >
+
+                            <!-- DataTales Example -->
+                            <div class="card shadow mb-4 ">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary" id="H1TituloTabla" >Datos de Pokémon</h6>
+                                </div>
+
+                                <div class="class=" table-responsive" style="padding: 2rem !important;">
+                
+                                    <table id="Pokemon-table"
+                                           class="table table-sm"
+                                           data-toggle="table"
+                                           data-locale="es-MX"
+                                           data-pagination="true"
+                                           data-search="true"
+                                           data-page-size="50"
+                                           data-page-list="[50, 100, 200]" 
+                                           data-height="500"
+                                           data-response-handler="responseHandler">
+
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th class="text-center" data-field="id" data-sortable="true" >ID</th>
+                                                <th class="text-center" data-field="nombre" data-sortable="true" >Nombre</th>
+                                                <th class="text-center" data-field="url">Url</th>
+                                                <th class="text-center" data-formatter="operateFormatter" data-title="Eventos" data-events="operateEvents">Acciones</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
                 <div class="app-footer">
                     <span style="color:ghostwhite">© AIJG 2024</span>
                 </div>
-                <!-- App footer end -->
 </div>
 
+@*Modal crear Usuario*@
+<div class="modal" id="ModaCrearUsuario" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Informacion del Usuario</h5>
+                @*<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>*@
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" placeholder="*" style="margin-bottom: 10px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="Usuario">Usuario</label>
+                        <input type="text" class="form-control" id="Usuario" placeholder="*" style="margin-bottom: 10px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="Contraseña">Contraseña</label>
+                        <input type="password" class="form-control" id="Contraseña" placeholder="*" style="margin-bottom: 10px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="Rol">Rol</label>
+                        <select id="Rol" class="form-control" style="margin-bottom: 10px;">
 
+                            <option value="1">Administrador</option>
+                            <option value="2" disabled>DHL</option>
+                            <option value="10" disabled>Estafeta</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Direccionshose">Direccion Origen</label>
+                        <select id="Direccionshose" class="form-control" style="margin-bottom: 10px;">
+
+                            @*<option value="">Administrador</option>
+                            <option value="2" disabled>DHL</option>
+                            <option value="10" disabled>Estafeta</option>*@
+
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="CerrarModales()">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="AgregarUsuario()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>

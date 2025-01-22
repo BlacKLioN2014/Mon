@@ -1,0 +1,13 @@
+#RowPokeCount, #MtPokeCount {
+    display: flex;
+    justify-content: center;
+}
+
+#ColPokeCount{
+    width:70%
+}
+
+#H1TituloTabla{
+    color:aliceblue;
+    font-size:x-large;
+}

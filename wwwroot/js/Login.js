@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     icon: 'success',
                     title: 'Usuario Correcto'
                 })
-                setTimeout(() => window.location.href = 'Home/Index', 1000)
+                setTimeout(() => window.location.href = '/Home/Index', 1000)
 
                 //alert("Inicio de sesión exitoso");
                 //window.location.href = "/Home"; // Redirige al usuario

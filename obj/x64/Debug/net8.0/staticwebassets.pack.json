@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\bootstrap\\bootstrap-icons.woff2"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\Home-Index.css",
+      "PackagePath": "staticwebassets\\css\\Home-Index.css"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\OverlayScrollbars.min.css",
       "PackagePath": "staticwebassets\\css\\OverlayScrollbars.min.css"
     },
@@ -127,6 +131,10 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Home-Index.js",
+      "PackagePath": "staticwebassets\\js\\Home-Index.js"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
@@ -181,10 +189,6 @@
       "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\gdp-data.js"
     },
     {
-      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js",
-      "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\jquery-jvectormap-2.0.5.min.js"
-    },
-    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Vendor\\jvectormap\\world-mill-en.js",
       "PackagePath": "staticwebassets\\js\\Vendor\\jvectormap\\world-mill-en.js"
     },
@@ -207,10 +211,6 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
-    },
-    {
-      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\initial_Index.js",
-      "PackagePath": "staticwebassets\\js\\initial_Index.js"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\jquery.min.js",
