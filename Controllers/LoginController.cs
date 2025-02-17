@@ -22,6 +22,11 @@ namespace Mon.Controllers
             return View();
         }
 
+        public IActionResult Index3()
+        {
+            return View();
+        }
+
         public IActionResult Registro()
         {
             return View(new UserRegistroDto());

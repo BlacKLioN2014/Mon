@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\Images\\curve-line-2.svg"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Images\\tiger.webp",
+      "PackagePath": "staticwebassets\\Images\\tiger.webp"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\assets\\fonts\\bootstrap\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\assets\\fonts\\bootstrap\\bootstrap-icons.css"
     },
@@ -117,6 +121,10 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\login3.css",
+      "PackagePath": "staticwebassets\\css\\login3.css"
+    },
+    {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
@@ -139,6 +147,10 @@
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login3.js",
+      "PackagePath": "staticwebassets\\js\\Login3.js"
     },
     {
       "Id": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Registro.js",

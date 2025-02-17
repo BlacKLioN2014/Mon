@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LtLzeYvM2s5ihMieUs6xH8v3/rvGLEbIXgqXp5YA/HY=",
+  "Hash": "adxIjMjhLpDsYpKWWKIAG9+Q3r6UTDBTvUJNJhIGnSM=",
   "Source": "Mon",
   "BasePath": "_content/Mon",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\login3.css",
+      "SourceId": "Mon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
+      "BasePath": "_content/Mon",
+      "RelativePath": "css/login3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login3.css"
     },
     {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\css\\main.css",
@@ -663,6 +682,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\curve-line-2.svg"
     },
     {
+      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\Images\\tiger.webp",
+      "SourceId": "Mon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
+      "BasePath": "_content/Mon",
+      "RelativePath": "Images/tiger.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\tiger.webp"
+    },
+    {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "Mon",
       "SourceType": "Discovered",
@@ -756,6 +794,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Login3.js",
+      "SourceId": "Mon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\",
+      "BasePath": "_content/Mon",
+      "RelativePath": "js/Login3.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Login3.js"
     },
     {
       "Identity": "C:\\Users\\Ismael\\Desktop\\Mon\\wwwroot\\js\\Registro.js",
